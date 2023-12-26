@@ -1,0 +1,873 @@
+CREATE TABLE calend (
+                period_name DATE,
+                is_weekends int NULL
+                );
+                SET datestyle = "ISO, DMY";
+
+
+
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.01.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.01.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.01.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.01.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.01.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.01.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.01.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.01.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.01.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.01.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.01.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.01.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.01.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.01.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.01.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.01.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.01.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.01.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.01.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.01.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.01.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.01.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.01.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.01.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.01.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.01.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.01.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.01.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.01.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.01.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '31.01.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.02.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.02.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.02.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.02.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.02.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.02.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.02.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.02.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.02.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.02.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.03.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.03.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.03.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.03.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.03.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.03.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.03.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.03.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.03.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '31.03.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.04.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.04.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.04.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.04.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.04.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.04.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.04.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.04.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.04.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.04.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.05.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.05.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.05.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.05.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.05.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.05.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.05.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.05.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.05.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.05.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.05.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.05.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.05.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '31.05.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.06.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.06.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.06.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.06.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.06.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.06.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.06.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.06.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.06.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.06.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.07.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.07.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.07.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.07.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.07.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.07.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.07.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.07.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.07.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.07.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '31.07.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.08.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.08.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.08.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.08.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.08.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.08.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.08.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.08.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '31.08.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.09.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.09.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.09.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.09.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.09.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.09.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.09.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.09.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.09.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.10.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.10.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.10.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.10.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.10.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.10.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.10.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.10.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.10.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.10.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '31.10.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.11.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.11.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.11.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.11.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.11.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.11.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.11.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.11.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.11.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.11.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.12.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.12.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.12.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.12.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.12.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.12.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.12.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.12.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.12.2022', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '31.12.2022', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.01.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.01.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.01.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.01.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.01.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.01.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.01.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.01.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.01.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.01.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.01.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.01.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.01.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.01.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.01.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.01.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.01.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.01.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.01.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.01.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.01.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.01.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.01.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.01.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.01.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.01.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.01.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.01.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.01.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.01.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '31.01.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.02.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.02.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.02.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.02.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.02.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.02.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.02.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.02.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.02.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.02.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.02.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.03.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.03.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.03.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.03.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.03.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.03.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.03.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.03.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.03.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.03.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '31.03.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.04.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.04.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.04.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.04.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.04.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.04.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.04.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.04.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.04.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.04.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.04.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.05.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.05.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.05.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.05.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.05.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.05.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.05.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.05.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.05.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.05.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.05.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '31.05.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.06.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.06.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.06.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.06.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.06.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.06.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.06.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.06.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.06.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.06.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.07.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.07.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.07.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.07.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.07.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.07.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.07.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.07.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.07.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.07.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '31.07.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.08.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.08.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.08.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.08.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.08.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.08.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.08.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.08.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '31.08.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.09.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.09.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.09.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.09.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.09.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.09.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.09.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.09.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.09.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.09.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.10.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.10.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.10.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.10.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.10.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.10.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.10.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.10.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.10.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '31.10.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.11.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.11.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.11.2023', 2);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.11.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.11.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.11.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.11.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.11.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.11.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.11.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '01.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '02.12.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '03.12.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '04.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '05.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '06.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '07.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '08.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '09.12.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '10.12.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '11.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '12.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '13.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '14.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '15.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '16.12.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '17.12.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '18.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '19.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '20.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '21.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '22.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '23.12.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '24.12.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '25.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '26.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '27.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '28.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '29.12.2023', 0);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '30.12.2023', 1);
+INSERT INTO calend (period_name, is_weekends)VALUES( timestamp '31.12.2023', 1);
+
+CREATE TABLE events (
+                task_id int NOT NULL,
+                type_id int NOT NULL,
+                start_dt TIMESTAMP,
+                end_dt TIMESTAMP
+                );
+                SET datestyle = "ISO, DMY";
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(1,1, timestamp '05/12/2023 13:43:00' , timestamp '05/12/2023 17:58:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(2,1, timestamp '05/12/2023 9:59:00' , timestamp '05/12/2023 17:56:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(3,1, timestamp '30/11/2023 9:30:00' , timestamp '05/12/2023 17:55:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(4,2, timestamp '03/12/2023 15:44:00' , timestamp '05/12/2023 17:54:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(5,2, timestamp '30/11/2023 8:44:00' , timestamp '05/12/2023 17:51:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(6,1, timestamp '05/12/2023 10:02:00' , timestamp '05/12/2023 17:49:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(7,1, timestamp '05/12/2023 12:35:00' , timestamp '05/12/2023 17:49:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(8,1, timestamp '03/12/2023 15:21:00' , timestamp '05/12/2023 17:46:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(9,1, timestamp '05/12/2023 8:35:00' , timestamp '05/12/2023 17:45:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(10,1, timestamp '05/12/2023 9:52:00' , timestamp '05/12/2023 17:38:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(11,2, timestamp '05/12/2023 8:21:00' , timestamp '05/12/2023 17:38:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(12,2, timestamp '05/12/2023 9:47:00' , timestamp '05/12/2023 17:38:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(13,2, timestamp '05/12/2023 8:36:00' , timestamp '05/12/2023 17:36:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(14,2, timestamp '05/12/2023 8:12:00' , timestamp '05/12/2023 17:32:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(15,2, timestamp '03/12/2023 15:19:00' , timestamp '05/12/2023 17:28:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(16,2, timestamp '01/12/2023 8:31:00' , timestamp '05/12/2023 17:27:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(17,2, timestamp '05/12/2023 8:25:00' , timestamp '05/12/2023 17:26:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(18,2, timestamp '01/12/2023 6:22:00' , timestamp '04/12/2023 17:25:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(19,1, timestamp '02/12/2023 8:09:00' , timestamp '04/12/2023 17:23:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(20,1, timestamp '03/12/2023 5:22:00' , timestamp '04/12/2023 17:18:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(21,1, timestamp '04/12/2023 8:24:00' , timestamp '04/12/2023 17:16:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(22,1, timestamp '20/11/2023 5:52:00' , timestamp '20/11/2023 17:49:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(23,2, timestamp '16/11/2023 12:57:00' , timestamp '20/11/2023 17:49:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(24,2, timestamp '20/11/2023 9:20:00' , timestamp '20/11/2023 17:40:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(25,1, timestamp '16/11/2023 12:47:00' , timestamp '20/11/2023 17:34:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(26,2, timestamp '17/11/2023 12:57:00' , timestamp '20/11/2023 17:32:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(27,2, timestamp '20/11/2023 9:05:00' , timestamp '20/11/2023 17:31:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(28,1, timestamp '20/11/2023 9:52:00' , timestamp '20/11/2023 17:25:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(29,1, timestamp '20/11/2023 6:27:00' , timestamp '20/11/2023 17:24:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(30,1, timestamp '19/11/2023 17:50:00' , timestamp '20/11/2023 17:23:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(31,2, timestamp '20/11/2023 9:40:00' , timestamp '21/11/2023 17:19:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(32,1, timestamp '20/11/2023 9:24:00' , timestamp '21/11/2023 17:14:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(33,2, timestamp '16/11/2023 10:46:00' , timestamp '21/11/2023 17:11:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(34,1, timestamp '17/11/2023 9:04:00' , timestamp '20/11/2023 17:08:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(35,1, timestamp '16/11/2023 17:07:00' , timestamp '20/11/2023 17:06:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(36,1, timestamp '12/11/2023 8:53:00' , timestamp '20/11/2023 17:02:00' );
+INSERT INTO events (task_id, type_id, start_dt, end_dt)VALUES(37,1, timestamp '16/11/2023 7:18:00' , timestamp '20/11/2023 17:01:00' );
+
+-- Cоздать запрос, который будет добавлять к таблице по задачам следующие атрибуты:
+-- плановая дата исполнения plan_dt (+ 3 рабочих дня к дате поступления для type_id = 1 и + 2 рабочих дня для type_id = 2), 
+-- признак нарушения срока flag_overdue (если дата отработки позднее плановой даты), 
+-- количество рабочих дней просрока time_of_delay.
+-- Если задача поступает в нерабочий день, то отсчет количества рабочих дней начинаются со следующего дня.
+-- Для расчета рабочих дней необходимо ориентироваться на производственный календарь, добавлен в приложение 1. is_weekends = 0 - рабочий,
+-- остальные значения - нерабочий (выходной, праздничный).
+
+-- создаем табл рабочих дней
+WITH  temp_table AS (
+      SELECT period_name
+      FROM calend
+      WHERE is_weekends = 0
+      ORDER BY period_name ASC) 
+      
+SELECT task_id,
+       type_id,
+       start_dt,
+       end_dt,
+       plan_dt,
+       
+       CASE
+          WHEN DATE(end_dt) - plan_dt > 0 THEN 'expired'
+          WHEN DATE(end_dt) - plan_dt <= 0 THEN 'not_expired'
+      
+        END flag_overdue,
+        
+        (SELECT CASE
+                     WHEN DATE(end_dt) - plan_dt > 0 THEN COUNT(temp_table.period_name)
+                     ELSE '0'
+                END time_of_delay_1
+        
+        FROM temp_table
+        WHERE temp_table.period_name BETWEEN DATE(end_dt)+1 AND plan_dt OR 
+        temp_table.period_name BETWEEN plan_dt+1 AND DATE(end_dt)
+        LIMIT 1) AS time_of_delay
+        
+      
+FROM
+        (
+        SELECT events.task_id AS task_id, 
+               events.type_id AS type_id,
+               events.start_dt AS start_dt,
+               events.end_dt AS end_dt,
+               CASE
+                  WHEN events.type_id = 1 THEN calend_new.two
+                  WHEN events.type_id = 2 THEN calend_new.one
+                   
+               END plan_dt,
+            
+              calend_new.next_work_days AS next_work_days
+        FROM   events   
+        
+        LEFT JOIN
+        
+        (
+        SELECT  calend.period_name AS period_name,
+                calend.is_weekends AS is_weekends,
+                (SELECT temp_table.period_name 
+                FROM temp_table
+                WHERE calend.period_name < temp_table.period_name
+                LIMIT 1) AS next_work_days,
+                one,
+                two
+                 
+        FROM calend
+              
+        
+        LEFT JOIN
+        
+              (SELECT period_name AS period_name_1,
+                    lead(period_name, 1) OVER () one,
+                    lead(period_name, 2) OVER () two
+              
+              FROM  calend
+              WHERE is_weekends = 0) AS table_work_days
+              
+              ON 
+                    (SELECT temp_table.period_name 
+                            FROM temp_table
+                            WHERE calend.period_name < temp_table.period_name
+                            LIMIT 1) = table_work_days.period_name_1
+                    
+                    ) AS calend_new
+        
+        ON DATE(events.start_dt) = calend_new.period_name
+        ) AS events_new
+        
+ORDER BY task_id
